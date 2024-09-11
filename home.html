@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href='styles.css'>
+     <!-- Internal CSS part: -->
+     <style>
+        .personalinfo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12% 8%;
+            gap: 10em;
+            background: black;
+        }
+        .personalinfo-img img {
+            position: relative;
+            width: 550px;
+            box-shadow: 0 0 25px #A52A2A,
+                        0 0 50px #A52A2A;
+            border-radius: 50%;
+        }
+        .personalinfo-content h2 {
+            text-align: left;
+            color: #FFF8DC;
+            font-size: 42px;
+            margin: 0.5em 0 1em;
+            margin-left: -19px;
+        }
+        .personalinfo-content ul li {
+            color: #FFF8DC;
+            font-size: 16px;
+            margin-bottom: 10px;
+            list-style-type: circle;
+        }
+        .personalinfo-content ul li strong {
+        color: #A52A2A;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>SABINA</span> SAGALOVA</a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#">Personal information</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Welcome to My Portfolio!</h3>
+            <h1>I am <span>Sabina<br></span>a bachelor student</h1>
+            <!-- Inline CSS example: --> <p style="font-family: 'Verdana', sans-serif;">Currently pursuing a degree in Software Engineering at Astana IT University</p>
+            <div class="btn-box">
+                <a href="./hobbies.html" class="btn-1">Hobbies</a>
+                <a href="./contactme.html" class="btn-2">Contact Me</a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="images/myphoto.jpg" alt="Photo">
+        </div>
+    </section>
+    <section class="personalinfo">
+        <div class="personalinfo-img">
+            <img src="images/Picture.jpeg" alt="">
+        </div>
+        <div class="personalinfo-content">
+            <h2 class="heading">Personal <span>Information</span></h2>
+            <ul>
+                <li><strong>Date of Birth:</strong> March 27, 2006</li>
+                <li><strong>Place of Birth:</strong> Aktobe, Kazakhstan</li>
+                <li><strong>Graduation School:</strong> School-gymnasium №2 </li>
+                <li><strong>University:</strong> Astana IT University</li>
+                <li><strong>Current Degree:</strong> Bachelor of Software Engineering</li>
+                <li><strong>Interests:</strong> Web Development, Programming, Reading, Drawing</li>
+                <li><strong>Fun Fact:</strong> An army-fan of the Korean band BTS</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Inline CSS parts: -->
+    <footer class="footer">
+        <ul class="list">
+            <li>
+                <a style="color: black">Feedback</a>
+            </li>
+            <li>
+                <a style="color: black">Help</a>
+            </li>
+            <li>
+                <a style="color: black">Privacy Policy</a>
+            </li>
+        </ul>
+    </footer>
+</body> 
+</html>
